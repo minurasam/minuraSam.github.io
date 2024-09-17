@@ -1502,3 +1502,50 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+
+/* Sports Achievements Section */
+
+.sports-carousel {
+  margin-top: 30px;
+}
+
+.sports-img {
+  filter: brightness(80%); /* Dim the image slightly */
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out; /* Smooth transition */
+}
+
+.sports-img:hover {
+  filter: brightness(100%); /* Brighten on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.sports-caption {
+  bottom: 20px;
+}
+
+.caption-bg {
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.sports-caption h5 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.sports-caption p {
+  font-size: 16px;
+  color: #ddd;
+  margin: 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.6); /* Add a background color to control icons */
+  padding: 10px;
+  border-radius: 50%;
+}
